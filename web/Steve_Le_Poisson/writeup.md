@@ -55,7 +55,7 @@
 curl 'https://steve-le-poisson-api.challs.umdctf.io/deviner' \
   -H 'accept: */*' \
   (中略)
-  -H 'x-steve-supposition: {悪意のある値}'
+  -H 'x-steve-supposition: {悪意のある値}' \
   -H 'X-STEVE-SUPPOSITION: foo'
 ```
 
